@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KS4L7SS');</script>
+        <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compra de pasajes | Transportes Instabus | Transporte de Pasajeros y Encomiendas | Lima - Huaral - Huacho - Supe - Barranca - Paramonga</title>
+
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // Check for click events on the navbar burger icon
+            $(".navbar-burger").click(function () {
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+
+            });
+
+            $(".view-seats-modal-button").click(function () {
+                var target = $(this).data("target");
+                $("html").addClass("is-clipped");
+                $(target).addClass("is-active");
+            });
+
+            $(".modal-close").click(function () {
+                $("html").removeClass("is-clipped");
+                $(this).parent().removeClass("is-active");
+            });
+
+
+            $(".modal-background").click(function () {
+                $("html").removeClass("is-clipped");
+                $(this).parent().removeClass("is-active");
+            });
+
+
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS4L7SS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="assets/images/instabus.png" />
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                </div>
+
+                <div class="navbar-end">
+                    
+                    <a class="navbar-item" href="destinations.html">
+                        Destinos y Rutas
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Servicios
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="services_bus.html">
+                                Bus
+                            </a>
+                            <a class="navbar-item" href="services_encomiendas.html">
+                                Encomiendas
+                            </a>
+
+                        </div>
+                    </div>
+
+                    <a class="navbar-item" href="tours.html">
+                        Tours
+                    </a>
+
+                    <a class="navbar-item" href="contact.html">
+                        Contáctanos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="section">
+        <div class="container">
+            <!-- STEPS -->
+            <p class="title is-4 has-text-centered ib-primary">Barranca <span class="ib-secondary">&#8594</span> Lima</p>
+            <p class="subtitle is-6 has-text-centered">Lunes, 28 de setiembre</p>
+
+            <ul class="steps is-centered has-content-centered is-horizontal">
+                <li class="steps-segment is-active">
+                    <a href="#" class="has-text-dark">
+                        <span class="steps-marker is-insta">
+                            <span class="icon">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                        <div class="steps-content">
+                            <p class="heading">Horarios</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="steps-segment">
+                    <a href="#" class="has-text-dark">
+                        <span class="steps-marker">
+                            <span class="icon">
+                                <i class="fa fa-user"></i>
+                            </span>
+                        </span>
+                        <div class="steps-content">
+                            <p class="heading">Datos de pasajero(s)</p>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="steps-segment">
+                    <span class="steps-marker">
+                        <span class="icon">
+                            <i class="fa fa-check"></i>
+                        </span>
+                    </span>
+                    <div class="steps-content">
+                        <p class="heading">Confirmación</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container" style="margin-top: 1.5rem;">
+            <div class="columns">
+                <div class="column is-2 is-hidden-mobile">
+                    <p>
+                        <strong>Filtrar</strong>
+                    </p>
+                    <div class="filters content is-small">
+                        <p>
+                            <strong>HORA DE SALIDA</strong><br/>
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Antes de las 6:00am (0)
+                            </label><br/>
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                6:00am a 12:00pm (1)
+                            </label><br/>
+
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                12:00pm a 06:00pm (1)
+                            </label><br/>
+
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Después de las 06:00pm (1)
+                            </label>
+                        </p>
+
+                        <p>
+                            <strong>HORA DE LLEGADA</strong><br/>
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Antes de las 6:00am (0)
+                            </label><br/>
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                6:00am a 12:00pm (1)
+                            </label><br/>
+
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                12:00pm a 06:00pm (1)
+                            </label><br/>
+
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Despues de las 06:00pm (1)
+                            </label>
+                        </p>
+
+                        <p>
+                            <strong>SERVICIOS</strong>
+                            <br />
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Económico
+                            </label>
+                            <br />
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                Express
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="column is-10">
+
+                    <div class="tags  is-hidden-mobile">
+                        <span class="tag is-white">Económico</span>
+                        <span class="tag is-white">6:00 am a 12:00pm</span>
+                        <span class="tag is-white">Después de las 06:00pm</span>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <p><strong>3 salidas</strong> encontradas</p>
+                        </div>
+                        <div class="column">
+                            <div class="content is-small has-text-right">
+                                Ordenar por:
+                                <a href="#" class="px-2">Salida <span class="icon is-small">
+                                        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+                                    </span></a>
+                                <a href="#" class="px-2">Llegada</a>
+                                <a href="#" class="px-2">Duración</a>
+                                <a href="#" class="px-2">Precio</a>
+                                <a href="#" class="px-2">Asientos disponibles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- result -->
+                    <div class="result box" id="1">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="assets/images/Servicio-Económico.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <p>
+                                                <small>Servicio Económico</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <strong>06:00am</strong><br>
+                                                <small>La victoria</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-clock" aria-hidden="true"></i>
+                                            </span>
+                                            <p>
+                                                <small>2h 20m</small>
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <strong>08:20am</strong>
+                                                <br>
+                                                <small>Av. Francisco Vidal 959</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p class="title is-5 price">
+                                                <br />
+                                                <small>S/&nbsp;</small><strong>29.00</strong>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <small>11 asientos disponibles</small>
+                                            </p>
+                                            <button class="button is-primary view-seats-modal-button"
+                                                data-target="#modal">
+                                                <span>Ver asientos</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- result -->
+                    <div class="result box" id="1">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="assets/images/Servicio-Económico.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <p>
+                                                <small>Servicio Económico</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <strong>08:00pm</strong><br>
+                                                <small>La victoria</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-clock" aria-hidden="true"></i>
+                                            </span>
+                                            <p>
+                                                <small>2h 20m</small>
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <strong>10:20pm</strong>
+                                                <br>
+                                                <small>Av. Francisco Vidal 959</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p class="title is-5 price">
+                                                <br />
+                                                <small>S/&nbsp;</small><strong>35.00</strong>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <small>08 asientos disponibles</small>
+                                            </p>
+                                            <button class="button is-primary">
+                                                <span>Ver asientos</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- result -->
+                    <div class="result box" id="2">
+                        <article class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="assets/images/Servicio-Económico.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="columns">
+                                        <div class="column">
+                                            <p>
+                                                <small>Servicio Económico</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <strong>09:00pm</strong><br>
+                                                <small>La victoria</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <span class="icon is-small">
+                                                <i class="fas fa-clock" aria-hidden="true"></i>
+                                            </span>
+                                            <p>
+                                                <small>2h 20m</small>
+                                                <br>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <strong>11:20pm</strong>
+                                                <br>
+                                                <small>Av. Francisco Vidal 959</small>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p class="title is-5 price">
+                                                <br />
+                                                <small>S/&nbsp;</small><strong>35.00</strong>
+                                            </p>
+                                        </div>
+                                        <div class="column">
+                                            <p>
+                                                <small>23 asientos disponibles</small>
+                                            </p>
+                                            <button class="button is-primary">
+                                                <span>Ver asientos</span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section custom-footer bg-white">
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered-mobile">
+                    <h6 class="title is-6">Destinos</h6>
+                    <ul>
+                        <li><a href="#">Barranca</a></li>
+                        <li><a href="#">Huacho</a></li>
+                        <li><a href="#">Lima</a></li>
+                        <li><a href="#">Paramonga</a></li>
+                    </ul>
+                </div>
+                <div class="column  has-text-centered-mobile">
+                    <h6 class="title is-6">Servicios</h6>
+                    <ul>
+                        <li><a href="#">Económico</a></li>
+                        <li><a href="#">Express</a></li>
+                    </ul>
+                </div>
+                <div class="column  has-text-centered-mobile">
+                    <h6 class="title is-6">Agencias</h6>
+                    <ul>
+                        <li><a href="#">Terminal Barranca</a></li>
+                        <li><a href="#">Terminal Huacho</a></li>
+                        <li><a href="#">Terminal Lima</a></li>
+                        <li><a href="#">Terminal Paramonga</a></li>
+                    </ul>
+                </div>
+                <div class="column  has-text-centered-mobile">
+                    <h6 class="title is-6">Instabus</h6>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="has-text-centered is-size-7">Copyright 2020 Instabus</p>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box seats-map-box">
+                <p class="title is-5 has-text-centered">Elige un asiento disponible para continuar con tu reserva</p>
+
+                <div class="columns">
+                    <div class="column is-8">
+                        <div id="seats-map">
+                            <div class="columns is-mobile is-gapless">
+                                <div class="column">
+                                    <div class="no-seat">
+                                    &nbsp;</div>
+                                </div>
+                                <div class="column seat-container">
+                                    <div class="seat ocuppied">
+                                        <span>3</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>6</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>9</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>13</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>17</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>21</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>25</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat selected">
+                                        <span>29</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat selected">
+                                        <span>33</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>37</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+
+                                    <div class="seat">
+                                        <span>
+                                            <span class="icon">
+                                                <i class="fa fa-male"></i>|<i class="fa fa-female"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Inicio fila #2 -->
+                            <div class="columns is-mobile is-gapless">
+                                <div class="column">
+                                    <div class="no-seat">&nbsp;</div>
+                                </div>
+                                <div class="column seat-container">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>12</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>16</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>20</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat ocuppied">
+                                        <span>24</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat selected">
+                                        <span>28</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat selected">
+                                        <span>32</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>36</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <!-- Fin fila #2 -->
+
+                            <!-- Inicio pasadiso -->
+                            <div class="columns is-mobile is-gapless">
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column seat-container">
+                                    <span class="icon">
+                                        <i class="fa fa-tv"></i>
+                                    </span>
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+
+                                </div>
+                                <div class="column">
+                                    <span class="icon">
+                                        <i class="fa fa-tv"></i>
+                                    </span>
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    <span class="icon">
+                                        <i class="fa fa-tv"></i>
+                                    </span>
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <!-- Fin pasadiso -->
+
+                            <!-- Inicio fila #3 -->
+                            <div class="columns is-mobile is-gapless">
+                                <div class="column">
+                                    <div class="no-seat">&nbsp;</div>
+                                </div>
+                                <div class="column seat-container">
+                                    <div class="seat">
+                                        <span>2</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>5</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>8</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>10</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>14</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>18</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>22</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>26</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>30</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>34</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <!-- Fin fila #3 -->
+
+                            <!-- Inicio fila #4 -->
+                            <div class="columns is-mobile is-gapless">
+                                <div class="column">
+                                    <span class="icon">
+                                        <i class="fa fa-circle"></i>
+                                    </span>
+                                </div>
+                                <div class="column seat-container">
+                                    <div class="seat">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>4</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>7</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    &nbsp;
+                                </div>
+                                <div class="column">
+                                    <div class="seat ocuppied">
+                                        <span>11</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>15</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>19</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>23</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>27</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>31</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>35</span>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="seat">
+                                        <span>*</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fin fila #4 -->
+                        </div>
+                    </div>
+                    <!--Seleccionados-->
+                    <div class="column is-4">
+                        <div class="content">
+                            <p class="title is-6 has-text-centered">Tu selección</p>
+                            <div class="columns is-multiline is-mobile">
+                                <div class="column is-full is-detail">
+                                    <small>N° de asientos:</small><br/>
+                                    <small>28, 29, 32, 33</small>
+                                </div>
+                                <div class="column is-half is-detail">
+                                    <small>Servicio:</small>
+                                </div>
+                                <div class="column is-half is-detail has-text-right">
+                                    <small>Económico</small>
+                                </div>
+                                <div class="column is-half is-detail">
+                                    <small> Total a pagar:</small>
+                                </div>
+                                <div class="column is-half is-detail has-text-right">
+                                    <p class="title is-6">
+                                        <small>S/&nbsp;</small><strong>116.00</strong>
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="buttons is-centered">
+                                <a href="passengers.html" class="button is-primary">
+                                    <span>Continuar</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+
+</body>
+
+</html>

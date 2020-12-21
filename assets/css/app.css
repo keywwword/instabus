@@ -1,0 +1,468 @@
+@import "bulma-steps.min.css";
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300;1,700;1,900&display=swap');
+
+body {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    color: #4F4F4F;
+    background-color: #F2F2F2;
+}
+
+.is-primary {
+    background-color: #0870ce!important;
+}
+
+.instabus-hero {
+    background-image: url("../images/Cab_Desktop_1920x416.jpg");
+    background-position: center;
+}
+
+.instabus-hero .title {
+    color: #FFF;
+}
+
+.navbar-item img {
+    max-height: 3rem;
+}
+
+.instabus-hero {
+    background-color: #eee;
+}
+
+.search-form {
+    background-color: #FFF;
+    padding: 0.8rem 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.search-form input, .search-form select {
+    border: none;
+    box-shadow: none;
+}
+
+.search-form input:focus, .search-form select:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.search-form .select {
+    min-width: 193px;
+}
+
+.search-button {
+    height: 100%;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #828282!important;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #828282!important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #828282!important;
+}
+
+.destinations {
+    padding-top: 2rem;
+}
+
+.content {
+    max-width: 1024px;
+}
+
+.destination {
+    height: 335px;
+    background-color: #eee;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.destination-info {
+    padding: 2150px 10px 0 20px;
+}
+
+.information {
+    background: #F2F2F2;
+}
+
+.image-info {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.custom-footer .title {
+    color: #0870ce;
+}
+
+.custom-footer a {
+    color: #4F4F4F;
+}
+
+.custom-footer hr {
+    background-color: #efefef;
+}
+
+.bg-gray {
+    background-color: #F2F2F2;
+}
+
+.bg-white {
+    background-color: #FFF;
+}
+
+.is-insta {
+    background-color: #0870ce!important;
+}
+
+.steps-segment:after {
+    background-color: #086fce;
+}
+
+.steps:not(.is-hollow) .steps-segment.is-active .steps-marker:not(.is-hollow) {
+    background-color: #086fce;
+    color: #fff;
+}
+
+.steps:not(.is-hollow) .steps-marker:not(.is-hollow) {
+    background-color: #086fce;
+    color: #fff;
+}
+
+.price {
+    color: #ec772e;
+}
+
+.filters {
+    margin-top: 0.5rem;
+}
+
+.filters .checkbox, .filters .radio {
+    padding: 0.4rem 0;
+}
+
+.ib-secondary {
+    color: #333;
+}
+
+.modal-background {
+    background-color: rgba(10, 10, 10, .50)!important;
+}
+
+.modal-content {
+    width: 70%!important;
+}
+
+.modal-content .box {
+    padding: 1.25rem 2rem 2rem 3rem;
+}
+
+.seat {
+    border-right: 3px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+.seat:hover {
+    font-weight: bold;
+    color: #333;
+}
+
+.seat span {
+    font-size: .75rem!important;
+}
+
+.seats-map-box {
+    background-color: #F2F2F2!important;
+}
+
+#seats-map {
+    background-color: #FFF;
+    border-left: 3px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0.5rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#seats-map .icon {
+    font-size: 0.6rem!important;
+}
+
+#seats-map .columns.is-gapless:not(:last-child) {
+    margin-bottom: calc(1.5rem - .75rem);
+}
+
+.seat.ocuppied {
+    background-color: #cccccc91;
+}
+
+.seat.ocuppied:hover {
+    cursor: not-allowed;
+}
+
+.seat.selected {
+    background-color: #dc9107;
+    color: #FFF;
+    font-weight: bold;
+    border-right: 3px solid #9a6d19;
+    border-left: 1px solid #9a6d19;
+    border-top: 1px solid #9a6d19;
+    border-bottom: 2px solid #9a6d19;
+}
+
+.is-detail {
+    border-bottom: 1px solid #eee;
+}
+
+.ib-primary {
+    color: #086fce;
+}
+
+.ib-third {
+    color: #dc9107;
+}
+
+.navbar.is-fixed-top{
+    border-bottom: 1px solid #f5f5f5 !important;
+}
+
+.search-form{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 10px;
+}
+
+
+
+.subtitle-home-section{
+    width: 75%;
+    display: inline-block;
+}
+
+.button.is-primary, a.button.is-link.is-fullwidth{
+    border-radius: 40px !important;
+}
+
+a.button.is-fullwidth.search-button.is-primary{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.destination{
+    height: 365px !important;
+    width: 261px !important;
+}
+
+.destination-info {
+    padding: 150px 10px 0 20px;
+    line-height: 1 !important;
+}
+
+.destination-lima{
+    background-image: url('../images/Destino_Lima_261x365px.png');
+    background-size: cover;
+}
+
+.destination-huaral{
+    background-image: url('../images/Destino_Huaral_261x365px.png');
+    background-size: cover;
+}
+
+.destination-chancay{
+    background-image: url('../images/Destino_Chancay_261x365px.png');
+    background-size: cover;
+}
+
+.destination-huacho{
+    background-image: url('../images/Destino_Huacho_261x365px.png');
+    background-size: cover;
+}
+
+.destination-supe{
+    background-image: url('../images/Destino_Supe_261x365px.png');
+    background-size: cover;
+}
+
+.destination-barranca{
+    background-image: url('../images/Destino_Barranca_261x365px.png');
+    background-size: cover;
+}
+
+.destination-paramonga{
+    background-image: url('../images/Destino_Paramonga_261x365px.png');
+    background-size: cover;
+}
+
+.destination-text{
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+}
+
+.destination-title{
+    font-size: x-large;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.destination-subtitle{
+    font-size: larger;
+}
+
+.destination-content{
+    font-size: small;
+    color: #4F4F4F;
+}
+
+.has-text-weight-black{
+    font-weight: 900 !important;
+}
+
+.has-text-weight-bold{
+    font-weight: 700 !important;
+}
+
+.has-text-weight-light{
+    font-weight: 300 !important;
+}
+
+.rrss{
+    width: 20px;
+    padding-top: 28px;
+}
+
+.image img, .image-border{
+    border-radius: 40px !important;
+}
+
+/*CARROUSEL*/
+#carrusel {
+    float:left;
+    width:855px;
+    overflow:hidden;
+    height:365px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 365px;
+    text-align:left;
+}
+ 
+.carrusel img {
+
+        padding-left: 32px;
+        padding-top: 22px;
+
+}
+ 
+
+/*CARROUSEL*/
+
+
+@media screen and (max-width: 768px) {
+
+    #seats-map .columns.is-gapless {
+        height: 412px!important;
+    }
+    
+
+    .seat{
+        writing-mode: lr;
+        min-width: 30px;
+        height: 27px;
+        margin: 0.15rem;
+    }
+
+    #seats-map{
+        border-top: 3px solid #ccc;
+        border-left: 1px solid #ccc;
+        writing-mode: vertical-rl;
+    }
+
+    .modal-content {
+        width: 80%!important;
+    }
+
+    figure.image.is-256x256{
+        width: 40%;
+    }
+
+    #carrusel {
+        width:285px !important;
+    }
+
+    .search-form{
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
+        border-bottom-left-radius: 0px !important;;
+        padding-left: 0px !important;;
+    }
+    
+    a.button.is-fullwidth.search-button.is-primary{
+        border-top-right-radius: 0px !important;;
+        border-bottom-left-radius: 20px !important;;
+        border-bottom-right-radius: 20px !important;;
+    }
+    
+    .instabus-hero {
+        background-image: url(../images/Cab_Mobile_500x416cm.jpg);
+        background-position: center;
+    }
+
+}

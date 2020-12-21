@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KS4L7SS');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="icon" type="image/png" href="assets/images/Favico_Instabus.png" sizes="16x16">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transportes Instabus | Transportes Instabus | Lima - Huaral - Chancay - Huacho - Supe - Barranca - Paramonga</title>
+    <meta name="description" content="Encuentra en transportes Instabus todas las comidades para viajar a Lima, Huaral, Chancay, Huacho, Supe, Barranca y Paramonga.">
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // Check for click events on the navbar burger icon
+            $(".navbar-burger").click(function () {
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+
+            });
+        });
+
+    </script>
+
+<!--CARROUSEL-->
+<script>
+var current = 0;
+var imagenes = new Array();
+ 
+$(document).ready(function() {
+    var numImages = 6;
+    let isMobile = window.matchMedia("only screen and (max-width: 760px)").matches;
+
+    if (numImages <= 3) {
+        $('.right-arrow').css('display', 'none');
+        $('.left-arrow').css('display', 'none');
+    }
+ 
+    $('.left-arrow')    .on('click',function() {
+       
+        if(isMobile){ 
+            if (current > 0) {
+                current = current - 1;
+            } else {
+                current = numImages - 1;
+            }
+        } else{
+            if (current > 0) {
+                current = current - 1;
+            } else {
+                current = numImages - 3;
+            }
+        }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)}, 600);
+ 
+        return false;
+    });
+ 
+    $('.left-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('hover', function() {
+        $(this).css('opacity','0.5');
+    }, function() {
+        $(this).css('opacity','1');
+    });
+ 
+    $('.right-arrow').on('click', function() {
+    if(isMobile){ 
+        if (numImages > current + 1) {
+            current = current+1;
+        } else {
+            current = 0;
+        }
+        console.log("mobile")
+    }else{
+        if (numImages-2 > current + 1) {
+            current = current+1;
+        } else {
+            current = 0;
+        }
+        console.log("desktop")
+    }
+ 
+        $(".carrusel").animate({"left": -($('#product_'+current).position().left)},600);
+ 
+        return false;
+    }); 
+ });
+</script>
+<!--CARROUSEL-->
+
+
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KS4L7SS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!--header-->
+
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="assets/images/instabus.png" />
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                </div>
+
+                <div class="navbar-end">
+                    
+                    <a class="navbar-item" href="destinations.html">
+                        Destinos y Rutas
+                    </a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Servicios
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="services_bus.html">
+                                Bus
+                            </a>
+                            <a class="navbar-item" href="services_encomiendas.html">
+                                Encomiendas y Cargo
+                            </a>
+
+                        </div>
+                    </div>
+                    <!--
+                    <a class="navbar-item" href="tours.html">
+                        Tours
+                    </a>-->
+
+                    <a class="navbar-item" href="contact.html">
+                        Contáctanos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-medium instabus-hero">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    &nbsp;
+                </h1>
+
+                <div class="columns is-gapless">
+                    <div class="column is-10">
+                        <section class="search-form">
+                            <div class="field is-horizontal">
+                                <div class="field-body">
+                                    <div class="field">
+                                        <div class="control has-icons-left">
+                                            <div class="select is-fullwidth">
+                                                <p class="is-expanded">
+                                                    <select>
+                                                        <option selected>Origen</option>
+                                                        <option>Lima</option>
+                                                        <option>Barranca</option>
+                                                    </select>
+                                                </p>
+                                            </div>
+                                            <div class="icon is-small is-left">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="control is-expanded has-icons-left">
+                                            <div class="select is-fullwidth">
+                                                <select>
+                                                    <option selected>Destino</option>
+                                                    <option>Barranca</option>
+                                                    <option>Lima</option>
+                                                </select>
+                                            </div>
+                                            <div class="icon is-small is-left">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <p class="control is-expanded has-icons-left has-icons-right">
+                                            <input class="input" type="text" placeholder="Fecha de ida" value="">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-calendar-alt"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="field">
+                                        <p class="control is-expanded has-icons-left has-icons-right">
+                                            <input class="input" type="text" placeholder="Fecha de vuelta" value="">
+                                            <span class="icon is-small is-left">
+                                                <i class="fas fa-calendar-alt"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="column is-2">
+                        <a class="button is-fullwidth search-button is-primary" href="results.html">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                            <span>Buscar</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+        <!--header-->
+
+    <section class="section bg-white">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <p class="title is-4 is-spaced">Destinos hacia el norte chico</p>
+                    <p class="subtitle is-6 subtitle-home-section">Deja de escuchar historias de los viajes de tus amigos. Alista tu mochila, compra tus pasajes en Instabus y comienza a tener experiencias por todos los sitios asombrosos que el norte chico tiene esperando por ti. Conoce tus nuevos lugares favoritos con Instabus: Lima, Huaral, Huacho, Supe, Barranca y Paramonga.  ¡No esperes más y prepárate para la aventura! </p>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-10">
+                    <div class="columns is-multiline is-mobile is-centered is-mobile">
+
+                            <div id="carrusel">
+                                <a href="#" class="left-arrow"><img src="assets/images/left-arrow.png" /></a>
+                                <a href="#" class="right-arrow"><img src="assets/images/right-arrow.png" /></a>
+                                <div class="carrusel">
+
+                                    <div class="column product" id="product_0">
+                                        <a href="contact.html">
+                                            <div class="destination destination-lima">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Lima</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Diviértete en el corazón del Perú</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Jr. Luna Pizarro #251, La Victoria</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 5:00 a.m. a 9:00 p.m. / 954158516 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Encomienda, Cargo</span>
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    
+                                    <div class="column product" id="product_1">
+                                        <a href="contact.html">
+                                            <div class="destination destination-huaral">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Huaral</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Descubre la “Capital de la agricultura”</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Prolongacion El Palmo #216</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 7:00 a.m. a 7:00 p.m. / 952305989 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Encomienda, Cargo</span>
+
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!--
+                                    <div class="column product" id="product_2">
+                                        <a href="contact.html">
+                                            <div class="destination destination-chancay">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Chancay</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Conoce su castillo de película</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Jr. Luna Pizarro #251, La Victoria</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 7:00 a.m. a 07:00 p.m. / 954158516 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Ecomienda, Cargo</span>
+
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    -->
+
+                                    <div class="column product" id="product_2">
+                                        <a href="contact.html">
+                                            <div class="destination destination-huacho">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Huacho</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Visita la ”Capital de la hospitalidad”</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Av. Panamericana Norte #1181</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 4:00 a.m. a 7:00 p.m. / 940377184 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Encomienda, Cargo</span>
+
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="column product" id="product_3">
+                                        <a href="contact.html">
+                                            <div class="destination destination-supe">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Supe</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Sorpréndete con la Ciudadela de Caral</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Av. Francisco Vidal #796</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 3:00 a.m. a 7:00 p.m. / 940377184 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Encomienda, Cargo</span>
+
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="column product" id="product_4">
+                                        <a href="contact.html">
+                                            <div class="destination destination-barranca">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Barranca</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Broncéate en sus encantadoras playas</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Calle Leoncio Prado #269</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 3:00 a.m. a 7:00 p.m. / 940375119 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Encomienda, Cargo</span>
+
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="column product" id="product_5">
+                                        <a href="contact.html">
+                                            <div class="destination destination-paramonga">
+                                                <div class="destination-info">
+                                                    <span class="has-text-weight-black destination-text ib-primary destination-title">Paramonga</span><br />
+                                                    <span class="has-text-weight-light destination-text ib-primary destination-subtitle">Explora la Fortaleza de Paramonga</span><br /><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Av. Francisco Vidal #921</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">De: 3:00 a.m. a 7:00 p.m. / 940374140 </span><br />
+                                                    <span class="has-text-weight-bold destination-text destination-content">Encontrarás:</span><br />
+                                                    <span class="has-text-weight-light destination-text destination-content">Pasajes, Encomienda, Cargo</span>
+
+                                                <div>
+                                                    <img class="is-rounded" src="assets/images/Pasaje_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Encomienda_icon.png">
+                                                    <img class="is-rounded" src="assets/images/Cargo_icon.png">
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="section information bg-gray">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <p class="title is-4 is-spaced">Elige Instabus para tus viajes y crea experiencias estupendas  
+                    </p>
+                    <p class="subtitle is-6 subtitle-home-section">¿Aún no conoces el norte chico? ¿Qué estás esperando? En Instabus llevamos más de 20 años acompañando a nuestros viajeros en su visita por estas tierras cálidas. Te ofrecemos el mejor servicio de transporte seguro y rápido. ¿Ya alistaste maletas? Disfruta de los mejores destinos que solo se encuentran en el Perú. </p>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-3 has-text-centered">
+                    <figure class="image is-48x48 image-info">
+                        <img class="is-rounded" src="assets/images/Bus_icon.png">
+                    </figure>
+                    <h5 class="title is-5">Modernos buses</h5>
+                    <p>En Instabus contamos con una moderna flota de 50 buses que te brindarán comodidad y seguridad a lo largo de todo tu viaje.</p>
+                </div>
+                <div class="column is-3 has-text-centered">
+                    <figure class="image is-48x48 image-info">
+                        <img class="is-rounded" src="assets/images/Card_icon.png">
+                    </figure>
+
+                    <h5 class="title is-5">Diversos medios de pago</h5>
+                    <p>Seguimos innovando en Instabus, ahora podrás pagar tu pasaje en nuestra web con tu tarjeta Visa crédito, débito,  American Express, y MasterCard.
+                    </p>
+                </div>
+                <div class="column is-3 has-text-centered">
+                    <figure class="image is-48x48 image-info">
+                        <img class="is-rounded" src="assets/images/Check_icon.png">
+                    </figure>
+                    <h5 class="title is-5">Excelente infraestructura</h5>
+                    <p>Contamos con agencias propias en Paramonga, Barranca, Huacho y Lima. Cumplimos con todos los protocolos de seguridad para cuidarte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section custom-footer bg-white">
+        <div class="container">
+            <div class="columns">
+                <div class="column has-text-centered-mobile">
+                    <h6 class="title is-6">Destinos</h6>
+                    <ul>
+                        <li><a href="destinations.html">Lima</a></li>
+                        <li><a href="destinations.html">Huaral</a></li>
+                        <!--li><a href="destinations.html">Chancay</a></li-->
+                        <li><a href="destinations.html">Huacho</a></li>
+                        <li><a href="destinations.html">Supe</a></li>
+                        <li><a href="destinations.html">Barranca</a></li>
+                        <li><a href="destinations.html">Paramonga</a></li>                        
+                    </ul>
+                </div>
+                <div class="column  has-text-centered-mobile">
+                    <h6 class="title is-6">Servicios</h6>
+                    <ul>
+                        <li><a href="services_bus.html">Bus</a></li>
+                        <li><a href="services_encomiendas.html">Encomiendas y Cargo</a></li>
+                    </ul>
+                </div>
+                <div class="column  has-text-centered-mobile">
+                    <h6 class="title is-6">Agencias</h6>
+                    <ul>
+                        <li><a href="contact.html">Agencia Lima</a></li>
+                        <li><a href="contact.html">Agencia Huaral</a></li>
+                        <!--li><a href="contact.html">Agencia Chancay</a></li-->
+                        <li><a href="contact.html">Agencia Huacho</a></li>
+                        <li><a href="contact.html">Agencia Supe</a></li>
+                        <li><a href="contact.html">Agencia Barranca</a></li>
+                        <li><a href="contact.html">Agencia Paramonga</a></li>
+                    </ul>
+                </div>
+                <div class="column  has-text-centered-mobile">
+                    <h6 class="title is-6">Instabus</h6>
+                    <ul>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                        <li>
+                            <a href="https://www.facebook.com/Instabus.Express" target="_blank"><img class="is-rounded rrss" src="assets/images/Instabus_Facebook.png"></a>
+                            <a href="https://www.instagram.com/instabus_express/" target="_blank"><img class="is-rounded rrss" src="assets/images/Instabus_Instagram.png"></a>
+                            <a href="https://www.youtube.com/channel/UC70RBpW_G5F5k3er_0mwltw/featured" target="_blank"><img class="is-rounded rrss" src="assets/images/Instabus_Youtube.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="has-text-centered is-size-7">Copyright 2020 Instabus</p>
+        </div>
+    </section>
+    
+</body>
+
+</html>

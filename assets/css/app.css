@@ -288,6 +288,11 @@ a.button.is-fullwidth.search-button.is-primary{
     line-height: 1 !important;
 }
 
+.destination-icons {
+    text-align: center !important;
+}
+
+
 .destination-lima{
     background-image: url('../images/Destino_Lima_261x365px.png');
     background-size: cover;
@@ -411,6 +416,10 @@ a.button.is-fullwidth.search-button.is-primary{
 
 }
  
+.carrusel img.first{
+    padding-left: 0px !important;
+}
+
 
 /*CARROUSEL*/
 

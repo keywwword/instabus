@@ -369,6 +369,10 @@ a.button.is-fullwidth.search-button.is-primary{
     border-radius: 40px !important;
 }
 
+.image img.no-rounded{
+    border-radius: 0px !important;
+}
+
 /*CARROUSEL*/
 #carrusel {
     float:left;
